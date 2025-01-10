@@ -9,4 +9,4 @@ dados = [
 soma = sum([i[1] for i in dados])
 
 for i in dados:
-	print(f"{i[0]}")
+	print(f"{i[0]} - {(i[1] / soma) * 100:.2f}%")
